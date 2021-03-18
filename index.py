@@ -30,7 +30,7 @@ IPM = np.linalg.inv(PM)
 Co =np.matmul(IPM, out)
 # make the funtion
 
-x = np.linspace(inp[0],inp[len(inp)-1], num=100)
+x = np.linspace(inp[0],inp[len(inp)-1], num=len(inp)*25)
 fx = []
 
 for i in range(len(x)):
